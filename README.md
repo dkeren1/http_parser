@@ -38,7 +38,7 @@ Output Example:
 5 [2025-04-08T06:37:58Z] 2a00:a040:199:3843:c86f:1061:50c9:afc6:35712 -> 2600:1406:3a00:21::173e:2e65:80 | 207.943493ms | http://example.com/
 
 
-Aggregated Connections by URL per Interval:
+Aggregated Connections by URL:
 Timestamp            | URL                                     | Connections No.  | Average Response Time
 -----------------------------------------------------------------------------------------------
 2025-04-07 06:37     |                                          |                  | 
