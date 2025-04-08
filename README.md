@@ -38,7 +38,7 @@ Output Example:
 5 [2025-04-08T06:37:58Z] 2a00:a040:199:3843:c86f:1061:50c9:afc6:35712 -> 2600:1406:3a00:21::173e:2e65:80 | 207.943493ms | http://example.com/
 
 
-Aggregated Connections by URL per Interval:
+Aggregated Connections by URL:
 Timestamp            | URL                                     | Connections No.  | Average Response Time
 -----------------------------------------------------------------------------------------------
 2025-04-07 06:37     |                                          |                  | 
@@ -62,10 +62,10 @@ Conclusion:
 ----------------------------------------------------------------
 This tool allows you to easily parse .pcap and .pcapng files, extract relevant HTTP data, and perform aggregation on connections. It can be useful for analyzing network traffic, investigating performance issues, and obtaining detailed connection statistics.
 
-Future enhancements:
+Possible enhancements:
 ----------------------------------------------------------------
  - Logging and Debugging: Add logging and debug capabilities to capture detailed information about packet processing, unmatched requests, and errors for better troubleshooting.
  - Handle Segmented Packets: Implement functionality to reassemble fragmented packets, ensuring that multi-segmented HTTP responses are correctly processed.
  - Improved Error Handling: Enhance error detection and reporting to ensure clearer messages during packet parsing, especially for malformed or incomplete HTTP requests/responses.
  - Enhanced Output Options: Provide support for outputting the results to various file formats (e.g., CSV, TXT, JSON) for easier storage, further analysis, or integration with other tools.
-  - Performance optimizations: Packet Processing Parallelization; consider Memory Pooling to reduce memory allocation overhead during packet processing.
+ - Performance optimizations: Packet Processing Parallelization; consider Memory Pooling to reduce memory allocation overhead during packet processing.
