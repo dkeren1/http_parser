@@ -62,10 +62,10 @@ Conclusion:
 ----------------------------------------------------------------
 This tool allows you to easily parse .pcap and .pcapng files, extract relevant HTTP data, and perform aggregation on connections. It can be useful for analyzing network traffic, investigating performance issues, and obtaining detailed connection statistics.
 
-Future enhancements:
+Possible enhancements:
 ----------------------------------------------------------------
  - Logging and Debugging: Add logging and debug capabilities to capture detailed information about packet processing, unmatched requests, and errors for better troubleshooting.
  - Handle Segmented Packets: Implement functionality to reassemble fragmented packets, ensuring that multi-segmented HTTP responses are correctly processed.
  - Improved Error Handling: Enhance error detection and reporting to ensure clearer messages during packet parsing, especially for malformed or incomplete HTTP requests/responses.
  - Enhanced Output Options: Provide support for outputting the results to various file formats (e.g., CSV, TXT, JSON) for easier storage, further analysis, or integration with other tools.
-  - Performance optimizations: Packet Processing Parallelization; consider Memory Pooling to reduce memory allocation overhead during packet processing.
+ - Performance optimizations: Packet Processing Parallelization; consider Memory Pooling to reduce memory allocation overhead during packet processing.
